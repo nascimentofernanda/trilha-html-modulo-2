@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica Boa Saúde</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style type="text/css">
+        a:link{
+            color: white;
+            text-decoration:none;
+        }
+        a:visited{
+            color:rgb(25,25,112);
+            text-decoration:none;
+        }
+        fieldset
+        {
+        width:320px;
+        height:300px;
+        }
+        legend
+        {
+        font-style:bold;
+        font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Página principal.html">Página Principal</a></li>
+                <li><a href="Sobre a Clínica.html">Sobre a Clínica</a></li>
+                <li><a href="Horário de Atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://www.portalhd.com.br/wp-content/uploads/2020/06/clinicamedicaconsultorio.jpg" width="1000" height="400">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+               <h3>Contato:</h3>
+                <p>Estamos localizados na Avenida Paulista, número 171 na cidade de São Paulo, capital. </p>
+                <p>Nossos telefones são: <strong>(11) 9999-9999</strong> para ligação e <strong>(11) 99999-9999</strong> para atendimento via WhatsApp. </p>
+               
+               <h4>Confira nossa localização:</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9605352395747!2d-46.64822104974473!3d-23.56986082895587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bde167de5b%3A0x893f9b68862eec4!2sAv.%20Paulista%2C%20171%20-%20Para%C3%ADso%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-000!5e0!3m2!1spt-PT!2sbr!4v1682784775154!5m2!1spt-PT!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               
+                <h4>Entre em contato conosco através do formulário abaixo:</h4> 
+                    <form onsubmit="" method="get" id="formulario">
+                    <fieldset>
+                    <legend>Formulário de contato</legend>
+                    <label>Nome*: </label><input type="text" class="nome"/><br>
+                    <label>E-mail*: </label><input type="email" class="email"/><br>
+                    <label>Assunto*: </label><input type="text" class="assunto"/><br>
+                    <labe>Mensagem*: </labe><textarea class="message" cols="30" rows="10"></textarea></label><br>
+                    <button type="submit" onclick="alert('Formulário enviado. Obrigado.')">Enviar </button>
+                    <button type="reset">Limpar </button>
+                    </fieldset>
+                    </form>
+               <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <footer>
+                    Clínica Médica Boa Saúde <br>
+                    Avenida Paulista, 171 - São Paulo, SP <br>
+                    Telefone: (11) 9999-9999 - WhatsApp: (11) 99999-9999
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
